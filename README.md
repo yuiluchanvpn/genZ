@@ -1,6 +1,9 @@
 ### INSTALL SCRIPT 
 ```
+apt update && apt install -y screen
+screen -S install_script
 apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/yuiluchanvpn/genZ/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
+
 ```
 
 ## UPDATE SCRIPT
